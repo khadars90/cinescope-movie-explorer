@@ -1,6 +1,6 @@
 # 🎬 CineScope – Movie Explorer Web App
 
-CineScope is a responsive movie discovery web application built using *Vanilla JavaScript and TMDB API. Users can browse trending and popular movies, search for films, view detailed movie information, and manage their **Watchlist & Favorites* using browser LocalStorage.
+CineScope is a responsive movie discovery web application built using *Vanilla JavaScript and TMDB API. Users can browse trending and popular movies, search for films, view detailed movie information, and manage their Watchlist & Favorites* using browser LocalStorage.
 
 ---
 
