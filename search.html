@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CineScope – Search Movies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="theme-dark">
+  <header class="navbar">
+    <a href="index.html" class="logo">🎬 CineScope</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="movies.html">Popular Movies</a>
+      <a href="search.html" class="active">Search</a>
+      <a href="watchlist.html">Watchlist</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle">🌓 Theme</button>
+  </header>
+
+  <main class="container">
+    <h1>Search Movies</h1>
+
+    <form id="search-form" class="search-form">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search by title..."
+        required
+      />
+      <button type="submit" class="btn-primary">Search</button>
+    </form>
+
+    <div id="error-box" class="error-box" style="display:none;"></div>
+
+    <div id="search-results" class="grid"></div>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> CineScope</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>

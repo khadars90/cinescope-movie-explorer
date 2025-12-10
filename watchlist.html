@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CineScope – Watchlist & Favorites</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="theme-dark">
+  <header class="navbar">
+    <a href="index.html" class="logo">🎬 CineScope</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="movies.html">Popular Movies</a>
+      <a href="search.html">Search</a>
+      <a href="watchlist.html" class="active">Watchlist</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle">🌓 Theme</button>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1>My Watchlist</h1>
+      <div id="watchlist-grid" class="grid"></div>
+    </section>
+
+    <section>
+      <h1>My Favorites</h1>
+      <div id="favorites-grid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> CineScope</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/watchlist.js"></script>
+</body>
+</html>

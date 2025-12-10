@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CineScope – Discover Movies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="theme-dark">
+  <header class="navbar">
+    <a href="index.html" class="logo">🎬 CineScope</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="movies.html">Popular Movies</a>
+      <a href="search.html">Search</a>
+      <a href="watchlist.html">Watchlist</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle">🌓 Theme</button>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Discover Movies with CineScope</h1>
+        <p>Browse trending and popular movies, save them to your watchlist, and explore details.</p>
+        <a href="movies.html" class="btn-primary">View Popular Movies</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Trending Today</h2>
+      <div id="trending-grid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> CineScope</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

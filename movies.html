@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CineScope – Popular Movies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="theme-dark">
+  <header class="navbar">
+    <a href="index.html" class="logo">🎬 CineScope</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="movies.html" class="active">Popular Movies</a>
+      <a href="search.html">Search</a>
+      <a href="watchlist.html">Watchlist</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle">🌓 Theme</button>
+  </header>
+
+  <main class="container">
+    <h1>Popular Movies</h1>
+    <div id="error-box" class="error-box" style="display:none;"></div>
+    <div id="movies-grid" class="grid"></div>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> CineScope</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/movies.js"></script>
+</body>
+</html>
